@@ -1,0 +1,136 @@
+.dashboard-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.welcome-card {
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.welcome-card h2 {
+  margin: 0 0 30px 0;
+  color: #333;
+  text-align: center;
+}
+
+.user-details {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 16px;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-item strong {
+  color: #555;
+  margin-right: 10px;
+  min-width: 150px;
+  display: inline-block;
+}
+
+.admin-notice {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.admin-notice p {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.admin-notice .btn-primary {
+  background: white;
+  color: #667eea;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.admin-notice .btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.info-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.info-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-card li {
+  padding: 10px 0;
+  color: #666;
+  font-size: 15px;
+}
+
+.info-card .btn-primary {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.info-card .btn-primary:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+@media (max-width: 768px) {
+  .welcome-card,
+  .info-card {
+    padding: 20px;
+  }
+
+  .detail-item strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
